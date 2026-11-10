@@ -1,0 +1,71 @@
+name: Update Dynamic GitHub Profile
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dynamic-profile-update
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate generator syntax
+        run: python -m py_compile scripts/generate_profile.py
+
+      - name: Generate profile visuals
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: av6r01
+          PROFILE_NAME: Avay Charan Das
+          PROFILE_ROLE: CYBERSECURITY / NETWORKING / SOFTWARE DEVELOPMENT
+          PROFILE_TAGLINE: Learning by building. Focused on practical, secure software.
+        run: python scripts/generate_profile.py
+
+      - name: Validate generated SVGs are well-formed
+        run: |
+          python - <<'PY'
+          import sys
+          import xml.etree.ElementTree as ET
+          from pathlib import Path
+
+          failed = False
+          for svg_path in sorted(Path("assets").glob("*.svg")):
+              try:
+                  ET.parse(svg_path)
+                  print(f"OK   {svg_path}")
+              except ET.ParseError as exc:
+                  failed = True
+                  print(f"FAIL {svg_path}: {exc}")
+          sys.exit(1 if failed else 0)
+          PY
+
+      - name: Commit updated visuals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/*.svg
+          if git diff --cached --quiet; then
+            echo "No profile changes."
+          else
+            git commit -m "chore: refresh dynamic profile visuals"
+            git push
+          fi
