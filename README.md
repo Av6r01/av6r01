@@ -6,6 +6,14 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-@av6r01-111827?style=flat-square&logo=github)](https://github.com/av6r01)
 
+<p>
+<a href="#about">About</a> ·
+<a href="#github-statistics">Statistics</a> ·
+<a href="#languages">Languages</a> ·
+<a href="#selected-projects">Projects</a> ·
+<a href="#contribution-activity">Activity</a>
+</p>
+
 </div>
 
 ---
