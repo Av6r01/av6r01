@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="260" viewBox="0 0 1100 260" role="img" aria-label="Avay Charan Das GitHub profile banner">
+<title>Avay Charan Das GitHub profile banner</title>
+<defs>
+<linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b9cff"/><stop offset="100%" stop-color="#50d6c8"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8b9cff"/><stop offset="100%" stop-color="#50d6c8"/></linearGradient>
+</defs>
+<rect width="1100" height="260" rx="22" fill="#0b1020"/>
+<circle cx="940" cy="-20" r="150" fill="#6579e8" opacity="0.08"/>
+<circle cx="35" cy="210" r="110" fill="#50d6c8" opacity="0.045"/>
+<rect x="28" y="28" width="1044" height="204" rx="18" fill="#0f1930" stroke="#263653" stroke-width="1.2"/>
+<rect x="28" y="28" width="6" height="204" rx="3" fill="url(#glow)"/>
+<text x="70" y="76" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="start" letter-spacing="2.0">GITHUB PROFILE  /  01</text>
+<text x="70" y="132" fill="#edf3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="39" font-weight="750" text-anchor="start" letter-spacing="0">Avay Charan Das</text>
+<text x="72" y="164" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="650" text-anchor="start" letter-spacing="1.25">CYBERSECURITY / NETWORKING / SOFTWARE DEVELOPMENT</text>
+<text x="72" y="198" fill="#c6d2e7" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" letter-spacing="0">Learning by building. Focused on practical, secure software.</text>
+<rect x="820" y="68" width="215" height="124" rx="14" fill="#14213a" stroke="#2b3a59"/>
+<text x="842" y="102" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="start" letter-spacing="1.1">PUBLIC REPOSITORIES</text>
+<text x="842" y="139" fill="#edf3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="750" text-anchor="start" letter-spacing="0">20</text>
+<text x="842" y="171" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" text-anchor="start" letter-spacing="0">0 total stars  ·  @av6r01</text>
+<text x="1037" y="218" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" font-weight="600" text-anchor="end" letter-spacing="1.2">BUILD  /  LEARN  /  SECURE</text>
+</svg>

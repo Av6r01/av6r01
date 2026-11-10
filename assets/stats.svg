@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="225" viewBox="0 0 1100 225" role="img" aria-label="GitHub statistics">
+<title>GitHub statistics</title>
+<defs>
+<linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#8b9cff"/><stop offset="100%" stop-color="#50d6c8"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#8b9cff"/><stop offset="100%" stop-color="#50d6c8"/></linearGradient>
+</defs>
+<rect width="1100" height="225" rx="22" fill="#0b1020"/>
+<circle cx="940" cy="-20" r="150" fill="#6579e8" opacity="0.08"/>
+<circle cx="35" cy="210" r="110" fill="#50d6c8" opacity="0.045"/>
+<text x="38" y="42" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="700" text-anchor="start" letter-spacing="1.8">GITHUB SIGNALS</text>
+<text x="1060" y="42" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="600" text-anchor="end" letter-spacing="1.1">LIVE DATA FROM GITHUB API</text>
+<rect x="34.0" y="62" width="195.2" height="126" rx="14" fill="#111a2e" stroke="#263653"/>
+<text x="51.0" y="91" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="start" letter-spacing="0.7">PUBLIC REPOSITORIES</text>
+<text x="51.0" y="139" fill="#edf3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" text-anchor="start" letter-spacing="0">20</text>
+<text x="51.0" y="166" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="500" text-anchor="start" letter-spacing="0">Owned public projects</text>
+<rect x="243.2" y="62" width="195.2" height="126" rx="14" fill="#111a2e" stroke="#263653"/>
+<text x="260.2" y="91" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="start" letter-spacing="0.7">TOTAL STARS</text>
+<text x="260.2" y="139" fill="#edf3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" text-anchor="start" letter-spacing="0">0</text>
+<text x="260.2" y="166" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="500" text-anchor="start" letter-spacing="0">Across public repositories</text>
+<rect x="452.4" y="62" width="195.2" height="126" rx="14" fill="#111a2e" stroke="#263653"/>
+<text x="469.4" y="91" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="start" letter-spacing="0.7">FOLLOWERS</text>
+<text x="469.4" y="139" fill="#edf3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" text-anchor="start" letter-spacing="0">0</text>
+<text x="469.4" y="166" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="500" text-anchor="start" letter-spacing="0">GitHub community</text>
+<rect x="661.6" y="62" width="195.2" height="126" rx="14" fill="#111a2e" stroke="#263653"/>
+<text x="678.5999999999999" y="91" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="start" letter-spacing="0.7">TOTAL FORKS</text>
+<text x="678.5999999999999" y="139" fill="#edf3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" text-anchor="start" letter-spacing="0">0</text>
+<text x="678.5999999999999" y="166" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="500" text-anchor="start" letter-spacing="0">Community copies</text>
+<rect x="870.8" y="62" width="195.2" height="126" rx="14" fill="#111a2e" stroke="#263653"/>
+<text x="887.8" y="91" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" text-anchor="start" letter-spacing="0.7">CONTRIBUTIONS · 2026</text>
+<text x="887.8" y="139" fill="#edf3ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="750" text-anchor="start" letter-spacing="0">0</text>
+<text x="887.8" y="166" fill="#50d6c8" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="500" text-anchor="start" letter-spacing="0">GitHub contribution calendar</text>
+<text x="38" y="211" fill="#9aabc6" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" font-weight="400" text-anchor="start" letter-spacing="0">Counts reflect public GitHub data; contribution totals depend on API access.</text>
+</svg>
